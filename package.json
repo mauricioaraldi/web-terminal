@@ -1,0 +1,27 @@
+{
+	"name": "WebTerminal",
+	"description": "An online terminal focused on task execution.",
+	"version": "0.1.0",
+	"keywords": ["terminal", "task"],
+	"homepage": "https://github.com/mauricioaraldi/web-terminal",
+	"main": "app/app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": {
+		"name": "Mauricio Araldi",
+		"url": "https://github.com/mauricioaraldi"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/mauricioaraldi/web-terminal"
+	},
+	"dependencies": {
+		"body-parser": "^1.13.2",
+		"connect-mongo": "^0.8.2",
+		"express": "^4.13.0",
+		"express-session": "^1.11.3",
+		"mongodb": "^2.0.39"
+	}
+}

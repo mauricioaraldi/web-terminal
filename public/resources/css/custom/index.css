@@ -1,0 +1,36 @@
+﻿body {
+	background-color: #000000;
+	color: #FFFFFF;
+	overflow: hidden;
+}
+
+div {
+	min-height: 1.2em;
+	height: 100%;
+	width:  100%;
+}
+
+.left-hand,
+.right-hand {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.right-hand {
+	border:  none;
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	margin-left: -78px;
+	resize: none;
+	text-indent: 90px;
+	width: 90%;
+}
+
+.line.message {
+	color: yellow;
+	white-space: pre-line;
+}
+
+.right-hand[data-type="secret"] {
+	font-size: 0px;
+}
